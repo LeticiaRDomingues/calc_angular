@@ -1,0 +1,16 @@
+<h1>Calculadora Angular</h1>
+
+<div>
+  <form>
+    <input type="number" name="num1" [(ngModel)]="num1" class="box">
+    <input type="number" name="num1" [(ngModel)]="num2" class="box">
+
+    <button (click) = "somar()">+</button>
+    <button (click) = "subtrair()">-</button>
+    <button (click) = "multiplicacao()">*</button>
+    <button (click) = "divisao()">/</button>
+
+    <input [value]="resp">
+
+  </form>
+</div>
